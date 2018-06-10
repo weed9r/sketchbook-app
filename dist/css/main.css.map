@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../../src/scss/main.scss"
+	],
+	"sourcesContent": [
+		"html {\n  font-family: sans-serif;\n  font-size: 16px;\n  background: #d1d8e0;\n  color: #1a1b1c;\n}\n\nbody {\n  margin: 0;\n}\n\n.stage {\n  min-height: 100vh;\n  min-width: 100vw;\n  position: relative;\n  left: 0;\n  top: 0;\n  z-index: 1;\n}\n\n.canvas {\n  background: transparent;\n  height: 100vh;\n  width: 100vw;\n  left: 0;\n  top: 0;\n  position: fixed;\n  z-index: 2;\n}\n\n.interface {\n  top: 0;\n  left: 0;\n  position: fixed;\n  height: 100vh;\n  width: 100vw;\n  pointer-events: none;\n  z-index: 4;\n  padding: 30px;\n  > * {\n    pointer-events: auto;\n  }\n}\n\n.btn {\n  position: relative;\n}\n\n.options {\n  position: absolute;\n  display: none;\n  z-index: 4;\n  border: 2px dotted #1a1b1c;\n\n  &--active {\n    display: block;\n  }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,UAAU;EACvB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,OAAO,GACf;;AAED,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC,GACV;;AAED,AAAA,MAAM,CAAC;EACL,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,KAAK;EAChB,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,CAAC;EACP,GAAG,EAAE,CAAC;EACN,OAAO,EAAE,CAAC,GACX;;AAED,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,WAAW;EACvB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,IAAI,EAAE,CAAC;EACP,GAAG,EAAE,CAAC;EACN,QAAQ,EAAE,KAAK;EACf,OAAO,EAAE,CAAC,GACX;;AAED,AAAA,UAAU,CAAC;EACT,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,cAAc,EAAE,IAAI;EACpB,OAAO,EAAE,CAAC;EACV,OAAO,EAAE,IAAI,GAId;EAZD,AASE,UATQ,GASN,CAAC,CAAC;IACF,cAAc,EAAE,IAAI,GACrB;;AAGH,AAAA,IAAI,CAAC;EACH,QAAQ,EAAE,QAAQ,GACnB;;AAED,AAAA,QAAQ,CAAC;EACP,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,kBAAkB,GAK3B;EAHE,AAAD,gBAAS,CAAC;IACR,OAAO,EAAE,KAAK,GACf"
+}
